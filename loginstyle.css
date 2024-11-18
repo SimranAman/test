@@ -1,0 +1,119 @@
+*{
+    font-family: sans-serif;
+}
+body{
+    padding: 10px;
+}
+/* ------------------------------------------- */
+/* main box  */
+.box{
+    width: 450px;
+    height: 750px;
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: 2px 2px 9px;
+    padding: 20px;
+}
+/* ------------------------------------------- */
+/* logo property */
+.img{
+    text-align: center;
+    padding-top: 20px;
+}
+img{
+    width: 100px;
+}
+/* ------------------------------------------- */
+/* main heading  */
+h1{
+    font-size: 30px;
+    color: rgba(34, 112, 207, 0.929);
+    padding: 0px 50px;
+}
+/* ------------------------------------------- */
+/* login section  */
+.login{
+    padding: 0px 20px;
+    margin: auto;
+    width: 350px;
+}
+#email,#password{
+    width: 350px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(234, 236, 238);
+    padding: 5px;
+    box-sizing: border-box;
+}
+.email,.password{
+    padding: 10px 0;
+}
+label{
+    opacity: .7;
+}
+/* ----------------------------------------------- */
+/* all buttons common property */
+button{
+    width: 350px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+/* ------------------------------------------------ */
+/* blue button property */
+.button{
+    text-align: center;
+    padding: 30px;
+}
+.blue{
+    background-color: rgba(34, 112, 207, 0.929);
+    color: white;
+}
+/* ------------------------------------------------ */
+/* sapration line  */
+.saprate{
+    text-align: center;
+}
+/* ------------------------------------------------ */
+/* gray buttons */
+.gap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+button img{
+    width: 12px;
+    padding-right: 5px;
+}
+.blue:hover{
+    background-color: rgba(34, 112, 207, 0.411);
+    color: black;
+}
+.gray:hover{
+    color: white;
+    background-color: rgba(34, 112, 207, 0.707);
+}
+
+/* checkbox */
+.check{
+    padding: 0px 50px;
+    
+}
+/* ----------------------------------------------- */
+/* footer  */
+.foot{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 55px;
+    font-size: 15px;
+}
+.foot a{
+    text-decoration: none;
+    color: rgba(34, 112, 207, 0.929);
+}
+/* --------------------------------------------- */

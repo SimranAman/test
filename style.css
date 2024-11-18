@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+/* navigation bar */
+nav {
+    display: flex;
+    width: 100vw;
+    background-color: rgba(28, 91, 173, 0.736);
+    justify-content: space-around;
+
+}
+/* bar list */
+nav ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    align-items: center;
+    position: relative;
+}
+
+li a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+/* ----------------------------------------------------- */
+
+/* bar drop list */
+.content {
+    display: none;
+    position: absolute;
+    background-color: rgb(251, 226, 217);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 8px;
+}
+/* drop list ancor tag */
+.content a {
+    color: rgb(139, 137, 137);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.content a:hover {
+    background-color: #43d2b3;
+    border-radius: 8px;
+    color: white;
+}
+
+.linkd:hover .content {
+    display: block;
+}
+
+/* down arrow */
+.arrow{
+    border:solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-left: 8px;
+    margin-bottom: 4px;
+    
+}
+.down{
+    transform:rotate(45deg);
+    -webkit-transform: rotate(45deg);
+
+}
+/* ------------------------------------------------------------ */
+.main {
+    height: 100vh;
+}
+/* main img  */
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("back2.jpg");
+    height: 50%;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+/* main img text heading and par  */
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.hero-text h1 {
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.hero-text p {
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+/* ------------------------------------------------------------ */
+/* footer specifications */
+footer {
+    width: 100vw;
+    height: 180px;
+    background-color: rgba(28, 91, 173, 0.736);
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+/* footer logo img */
+footer img {
+    margin-top: 50px;
+    
+}
+/* footer list */
+footer ul {
+    margin-top: 20px;
+    color: white;
+    list-style: none;
+    
+}
+
+/* footer list heading */
+h3 {
+    margin-bottom: 10px;
+}
+
+/* media icon */
+.media {
+    display: flex;
+    gap: 20px;
+}
+
+li img {
+    margin-top: 20px;
+}
+/* ------------------------------------------------------------------- */
